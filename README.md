@@ -1,3 +1,4 @@
+
 # EcoTech Solutions – Ejercicios
 
 ```
@@ -28,6 +29,7 @@ python catalogo.py        # genera catalogo_ecotech.json
 Desde la carpeta `ejercicio_3`:
 
 **Windows (PowerShell o CMD)**
+
 ```
 py -m venv venv
 venv\Scripts\activate
@@ -37,6 +39,7 @@ python manage.py runserver
 ```
 
 **Linux / macOS**
+
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -51,10 +54,10 @@ No hace falta ejecutar migraciones: el proyecto no usa base de datos.
 
 ## Dónde está cada parte del ejercicio 3
 
-| Pedido del enunciado | Archivo |
-|---|---|
-| `calcular_emisiones_carbono` | `sustentabilidad/emisiones.py` |
-| `obtener_metricas_consumo` | `sustentabilidad/emisiones.py` |
-| `TestCalculoEmisiones` | `sustentabilidad/tests.py` |
-| `vista_panel_sustentabilidad` | `sustentabilidad/views.py` |
+| Pedido del enunciado                     | Archivo                                                  |
+| ---------------------------------------- | -------------------------------------------------------- |
+| `calcular_emisiones_carbono`           | `sustentabilidad/emisiones.py`                         |
+| `obtener_metricas_consumo`             | `sustentabilidad/emisiones.py`                         |
+| `TestCalculoEmisiones`                 | `sustentabilidad/tests.py`                             |
+| `vista_panel_sustentabilidad`          | `sustentabilidad/views.py`                             |
 | Plantilla `sustentabilidad/panel.html` | `sustentabilidad/templates/sustentabilidad/panel.html` |
